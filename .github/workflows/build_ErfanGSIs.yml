@@ -15,7 +15,7 @@ on:
     
 env:
   ROM_URL: http://111.229.163.148/?/exTHmUI%EF%BC%88%E9%A2%84%E8%A7%88%E7%89%88%EF%BC%89/%E5%B0%8F%E7%B1%B3MIX2s/exthm-10.0-20200623-UNOFFICIAL-SNAPSHOT-polaris.zip
-  ROM_NAME: AOSP
+  ROM_NAME: Generic for Android 10
   TZ: Asia/Shanghai
 
 jobs:
