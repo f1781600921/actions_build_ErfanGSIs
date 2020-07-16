@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://111.229.163.148/?/exTHmUI%EF%BC%88%E9%A2%84%E8%A7%88%E7%89%88%EF%BC%89/%E5%B0%8F%E7%B1%B3MIX2s/exthm-10.0-20200623-UNOFFICIAL-SNAPSHOT-polaris.zip
-  ROM_NAME: Generic for Android 10
+  ROM_URL: https://hugeota.d.miui.com/20.2.20/miui_MI6_20.2.20_0bbc2517ef_9.0.zip
+  ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
 jobs:
@@ -61,7 +61,7 @@ jobs:
        - name: Upload GSI to BitSend
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer gof final/GSI.zip
+              ./transfer bit final/GSI.zip
 
          
             
