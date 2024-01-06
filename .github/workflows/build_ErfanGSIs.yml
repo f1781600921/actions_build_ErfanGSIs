@@ -14,8 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://59-47-225-66.pd1.123pan.cn:30443/download-cdn.123pan.cn/123-596/7bd1a030/1821322663-0/7bd1a030ba67b7669e4163907f959e54/c-m11?v=5&t=1704623621&s=170462362199cd33ed198914b2c862a91d47ea5afe&r=1RS51F&bzc=1&bzs=1816254415&filename=IHU509G-ota-1.2.3-145-user.zip&x-mf-biz-cid=8b2aed43-989f-41eb-93be-e235fc7e9d87-63d50b&auto_redirect=0&ndcp=1&cache_type=1&xmfcid=d441275c-e81b-4c6a-8bef-41044a5493cf-1-abf611255
-  ROM_NAME: Generic
+  ROM_URL: http://bigota.d.miui.com/20.4.27/miui_MIMIX3_20.4.27_8f7879221b_10.0.zip
   BUILD_TYPE: Aonly
   TZ: Asia/Shanghai
 
